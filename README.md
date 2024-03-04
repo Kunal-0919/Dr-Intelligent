@@ -4,7 +4,7 @@ Here We Are creating an Artificial Intelligent Doctor that will use Machine Lear
 if a Person has a Heart Disease or not.
 We have created our intire Website containing landing, uploading and result page, using Django, HTML, CSS, Jinja and Python.
 
-Here we have used PyPDF2 to read and extract values from the PDF of health report of patients.
+Here we have used PyPDF2 to read(basically converts the whole data on the pdf to a string and then stores all the values in form of key value pairs) and extract values from the PDF of health report of patients. This will be used as the data for the model to predict.
 Here the patient will upload his/her health report PDF on our website and then we will extract information from the uplaoded PDF and then train machine learning model on the features value, obtained.
 
 For it We will be using 'Classification' ML Algorithms to -
