@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:id="@+id/startscreen"
+        android:layout_width="411dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="84dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Uploading....."
+            android:textAlignment="center"
+            android:textColor="#27E1C1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout
+        >
+
+</androidx.constraintlayout.widget.ConstraintLayout>
