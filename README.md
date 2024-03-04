@@ -1,4 +1,4 @@
-AI Doc
+Dr. Intelligent (AI Doctor predicting if a person is suffering from heart disease.)
 
 Here We Are creating an Artificial Intelligent Doctor that will use Machine Learning Algorithms to Predict
 if a Person has a Heart Disease or not.
